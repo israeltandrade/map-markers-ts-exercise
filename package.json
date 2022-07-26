@@ -1,5 +1,21 @@
 {
   "devDependencies": {
     "typescript": "^4.7.4"
-  }
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "@types/google.maps": "^3.49.2"
+  },
+  "name": "maps",
+  "description": "A simple typescript project to locate a user and his/her company on a map.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html --port 1234",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

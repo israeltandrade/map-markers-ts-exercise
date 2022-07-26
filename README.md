@@ -11,4 +11,5 @@ To start just clone the repository or clone it.
 You will need:
 
 * node and npm
-* node modules: typescript, parcel-bundler
+* node modules: typescript, parcel-bundler, faker@5.5.3
+* type definition files: faker@5.5.9
