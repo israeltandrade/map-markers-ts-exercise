@@ -22771,6 +22771,10 @@ function () {
     };
   }
 
+  Company.prototype.markerContent = function () {
+    return "\n    <div>\n      <h1>Company Name: ".concat(this.companyName, "</h1>\n      <h3>Catchphrase: ").concat(this.catchPhrase, "</h3>\n    </div>\n    ");
+  };
+
   return Company;
 }();
 
@@ -22783,7 +22787,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.User = void 0;
 
-var faker_1 = require("@faker-js/faker"); // Exportação da classe para uso em outros lugares:
+var faker_1 = require("@faker-js/faker"); // Implementação da interface Mappable
 
 
 var User =
@@ -22792,12 +22796,14 @@ function () {
   function User() {
     this.name = faker_1.faker.name.firstName();
     this.location = {
-      // A conversão para números foi necessária porque a livraria
-      // "faker" cria valores como string:
       lat: parseFloat(faker_1.faker.address.latitude()),
       lng: parseFloat(faker_1.faker.address.longitude())
     };
   }
+
+  User.prototype.markerContent = function () {
+    return "User Name: ".concat(this.name);
+  };
 
   return User;
 }();
@@ -22809,7 +22815,7 @@ exports.User = User;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.CustomMap = void 0;
+exports.CustomMap = void 0; /// <reference types="@types/google.maps" />
 
 var CustomMap =
 /** @class */
@@ -22825,12 +22831,22 @@ function () {
   }
 
   CustomMap.prototype.addMarker = function (mappable) {
-    new google.maps.Marker({
+    var _this = this; // Atribuição de instância à uma constante:
+
+
+    var marker = new google.maps.Marker({
       map: this.googleMap,
       position: {
         lat: mappable.location.lat,
         lng: mappable.location.lng
       }
+    }); // Evento quando clicar na marker:
+
+    marker.addListener('click', function () {
+      var infoWindow = new google.maps.InfoWindow({
+        content: mappable.markerContent()
+      });
+      infoWindow.open(_this.googleMap, marker);
     });
   };
 
@@ -22843,8 +22859,7 @@ exports.CustomMap = CustomMap;
 
 Object.defineProperty(exports, "__esModule", {
   value: true
-}); /// <reference types="@types/google.maps" />
-// Importação das classes:
+}); // Importação das classes:
 
 var Company_1 = require("./Company");
 
@@ -22886,7 +22901,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34981" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33615" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
