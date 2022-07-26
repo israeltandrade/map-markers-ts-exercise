@@ -22748,7 +22748,34 @@ var Cr = new _chunkGCRDD34F.c({
   locales: mo
 });
 exports.faker = Cr;
-},{"./chunk-WVOCBSFC.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-WVOCBSFC.mjs","./chunk-7432OCRF.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-7432OCRF.mjs","./chunk-WN2JEJYQ.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-WN2JEJYQ.mjs","./chunk-GCCSANDC.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-GCCSANDC.mjs","./chunk-SPNBDFMJ.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-SPNBDFMJ.mjs","./chunk-VXU6XOFD.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-VXU6XOFD.mjs","./chunk-NHTFN6SP.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-NHTFN6SP.mjs","./chunk-3ARABDB6.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-3ARABDB6.mjs","./chunk-FUFNXAJQ.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-FUFNXAJQ.mjs","./chunk-HPTVFHAE.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-HPTVFHAE.mjs","./chunk-JTU4IMYH.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-JTU4IMYH.mjs","./chunk-I5CF4CM2.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-I5CF4CM2.mjs","./chunk-OE3BJWMY.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-OE3BJWMY.mjs","./chunk-ZKLDM4CS.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-ZKLDM4CS.mjs","./chunk-CXQ7JCCM.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-CXQ7JCCM.mjs","./chunk-DKZCIT54.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-DKZCIT54.mjs","./chunk-7M4JXUUT.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-7M4JXUUT.mjs","./chunk-TKT2MI64.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-TKT2MI64.mjs","./chunk-6GIE5PD4.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-6GIE5PD4.mjs","./chunk-CQY63ECR.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-CQY63ECR.mjs","./chunk-KF4H35MX.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-KF4H35MX.mjs","./chunk-AUST2JXB.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-AUST2JXB.mjs","./chunk-3NHNQYQW.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-3NHNQYQW.mjs","./chunk-LLYPBOUH.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-LLYPBOUH.mjs","./chunk-52L36HHN.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-52L36HHN.mjs","./chunk-MXIALTUO.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-MXIALTUO.mjs","./chunk-M5XYYP24.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-M5XYYP24.mjs","./chunk-446A5SM3.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-446A5SM3.mjs","./chunk-M32SKGJU.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-M32SKGJU.mjs","./chunk-BXVIJCB2.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-BXVIJCB2.mjs","./chunk-734TQE3B.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-734TQE3B.mjs","./chunk-VF54J4XM.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-VF54J4XM.mjs","./chunk-W45S2P6P.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-W45S2P6P.mjs","./chunk-IWOGCQZI.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-IWOGCQZI.mjs","./chunk-Z5MVEBQ7.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-Z5MVEBQ7.mjs","./chunk-UZGUB5KK.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-UZGUB5KK.mjs","./chunk-G3B3NYPL.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-G3B3NYPL.mjs","./chunk-KXPRWUZV.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-KXPRWUZV.mjs","./chunk-ETFC6DOR.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-ETFC6DOR.mjs","./chunk-YOKKDIR7.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-YOKKDIR7.mjs","./chunk-SL6X53RG.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-SL6X53RG.mjs","./chunk-LIOP3MLZ.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-LIOP3MLZ.mjs","./chunk-WEYY3FAI.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-WEYY3FAI.mjs","./chunk-RAIC6NHU.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-RAIC6NHU.mjs","./chunk-WW46KXGA.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-WW46KXGA.mjs","./chunk-UCPFQJLO.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-UCPFQJLO.mjs","./chunk-BKLUIBD7.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-BKLUIBD7.mjs","./chunk-7VO7SU4X.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-7VO7SU4X.mjs","./chunk-QTV4HWFK.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-QTV4HWFK.mjs","./chunk-YZLELQ2M.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-YZLELQ2M.mjs","./chunk-FSFITROP.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-FSFITROP.mjs","./chunk-HMMTBEDO.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-HMMTBEDO.mjs","./chunk-LROQCDNR.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-LROQCDNR.mjs","./chunk-F7S236T7.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-F7S236T7.mjs","./chunk-2VKNZC7Y.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-2VKNZC7Y.mjs","./chunk-3PMH4JLT.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-3PMH4JLT.mjs","./chunk-GCRDD34F.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-GCRDD34F.mjs"}],"src/User.ts":[function(require,module,exports) {
+},{"./chunk-WVOCBSFC.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-WVOCBSFC.mjs","./chunk-7432OCRF.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-7432OCRF.mjs","./chunk-WN2JEJYQ.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-WN2JEJYQ.mjs","./chunk-GCCSANDC.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-GCCSANDC.mjs","./chunk-SPNBDFMJ.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-SPNBDFMJ.mjs","./chunk-VXU6XOFD.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-VXU6XOFD.mjs","./chunk-NHTFN6SP.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-NHTFN6SP.mjs","./chunk-3ARABDB6.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-3ARABDB6.mjs","./chunk-FUFNXAJQ.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-FUFNXAJQ.mjs","./chunk-HPTVFHAE.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-HPTVFHAE.mjs","./chunk-JTU4IMYH.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-JTU4IMYH.mjs","./chunk-I5CF4CM2.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-I5CF4CM2.mjs","./chunk-OE3BJWMY.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-OE3BJWMY.mjs","./chunk-ZKLDM4CS.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-ZKLDM4CS.mjs","./chunk-CXQ7JCCM.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-CXQ7JCCM.mjs","./chunk-DKZCIT54.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-DKZCIT54.mjs","./chunk-7M4JXUUT.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-7M4JXUUT.mjs","./chunk-TKT2MI64.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-TKT2MI64.mjs","./chunk-6GIE5PD4.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-6GIE5PD4.mjs","./chunk-CQY63ECR.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-CQY63ECR.mjs","./chunk-KF4H35MX.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-KF4H35MX.mjs","./chunk-AUST2JXB.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-AUST2JXB.mjs","./chunk-3NHNQYQW.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-3NHNQYQW.mjs","./chunk-LLYPBOUH.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-LLYPBOUH.mjs","./chunk-52L36HHN.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-52L36HHN.mjs","./chunk-MXIALTUO.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-MXIALTUO.mjs","./chunk-M5XYYP24.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-M5XYYP24.mjs","./chunk-446A5SM3.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-446A5SM3.mjs","./chunk-M32SKGJU.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-M32SKGJU.mjs","./chunk-BXVIJCB2.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-BXVIJCB2.mjs","./chunk-734TQE3B.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-734TQE3B.mjs","./chunk-VF54J4XM.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-VF54J4XM.mjs","./chunk-W45S2P6P.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-W45S2P6P.mjs","./chunk-IWOGCQZI.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-IWOGCQZI.mjs","./chunk-Z5MVEBQ7.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-Z5MVEBQ7.mjs","./chunk-UZGUB5KK.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-UZGUB5KK.mjs","./chunk-G3B3NYPL.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-G3B3NYPL.mjs","./chunk-KXPRWUZV.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-KXPRWUZV.mjs","./chunk-ETFC6DOR.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-ETFC6DOR.mjs","./chunk-YOKKDIR7.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-YOKKDIR7.mjs","./chunk-SL6X53RG.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-SL6X53RG.mjs","./chunk-LIOP3MLZ.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-LIOP3MLZ.mjs","./chunk-WEYY3FAI.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-WEYY3FAI.mjs","./chunk-RAIC6NHU.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-RAIC6NHU.mjs","./chunk-WW46KXGA.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-WW46KXGA.mjs","./chunk-UCPFQJLO.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-UCPFQJLO.mjs","./chunk-BKLUIBD7.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-BKLUIBD7.mjs","./chunk-7VO7SU4X.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-7VO7SU4X.mjs","./chunk-QTV4HWFK.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-QTV4HWFK.mjs","./chunk-YZLELQ2M.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-YZLELQ2M.mjs","./chunk-FSFITROP.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-FSFITROP.mjs","./chunk-HMMTBEDO.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-HMMTBEDO.mjs","./chunk-LROQCDNR.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-LROQCDNR.mjs","./chunk-F7S236T7.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-F7S236T7.mjs","./chunk-2VKNZC7Y.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-2VKNZC7Y.mjs","./chunk-3PMH4JLT.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-3PMH4JLT.mjs","./chunk-GCRDD34F.mjs":"node_modules/@faker-js/faker/dist/esm/chunk-GCRDD34F.mjs"}],"src/Company.ts":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Company = void 0;
+
+var faker_1 = require("@faker-js/faker");
+
+var Company =
+/** @class */
+function () {
+  function Company() {
+    this.companyName = faker_1.faker.company.companyName();
+    this.catchPhrase = faker_1.faker.company.catchPhrase(); // A inicialização de objetos precisa ser na forma de objeto:
+
+    this.location = {
+      lat: parseFloat(faker_1.faker.address.latitude()),
+      lng: parseFloat(faker_1.faker.address.longitude())
+    };
+  }
+
+  return Company;
+}();
+
+exports.Company = Company;
+},{"@faker-js/faker":"node_modules/@faker-js/faker/dist/esm/index.mjs"}],"src/User.ts":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -22781,13 +22808,18 @@ exports.User = User;
 
 Object.defineProperty(exports, "__esModule", {
   value: true
-});
+}); // Importação das classes:
 
-var User_1 = require("./User");
+var Company_1 = require("./Company");
+
+var User_1 = require("./User"); // Instâncias das classes:
+
 
 var user = new User_1.User();
+var company = new Company_1.Company();
 console.log(user);
-},{"./User":"src/User.ts"}],"../../../../../../.nvm/versions/node/v16.15.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+console.log(company);
+},{"./Company":"src/Company.ts","./User":"src/User.ts"}],"../../../../../../.nvm/versions/node/v16.15.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -22815,7 +22847,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45457" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34417" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
