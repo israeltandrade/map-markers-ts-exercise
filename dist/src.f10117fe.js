@@ -22808,7 +22808,8 @@ exports.User = User;
 
 Object.defineProperty(exports, "__esModule", {
   value: true
-}); // Importação das classes:
+}); /// <reference types="@types/google.maps" />
+// Importação das classes:
 
 var Company_1 = require("./Company");
 
@@ -22847,7 +22848,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34417" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33967" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

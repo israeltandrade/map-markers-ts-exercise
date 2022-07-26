@@ -1,3 +1,4 @@
+/// <reference types="@types/google.maps" />
 // Importação das classes:
 import { Company } from './Company';
 import { User } from './User';
