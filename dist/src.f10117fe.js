@@ -22803,7 +22803,42 @@ function () {
 }();
 
 exports.User = User;
-},{"@faker-js/faker":"node_modules/@faker-js/faker/dist/esm/index.mjs"}],"src/index.ts":[function(require,module,exports) {
+},{"@faker-js/faker":"node_modules/@faker-js/faker/dist/esm/index.mjs"}],"src/CustomMap.ts":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.CustomMap = void 0;
+
+var CustomMap =
+/** @class */
+function () {
+  function CustomMap(divId) {
+    this.googleMap = new google.maps.Map(document.getElementById(divId), {
+      zoom: 1,
+      center: {
+        lat: 0,
+        lng: 0
+      }
+    });
+  }
+
+  CustomMap.prototype.addMarker = function (mappable) {
+    new google.maps.Marker({
+      map: this.googleMap,
+      position: {
+        lat: mappable.location.lat,
+        lng: mappable.location.lng
+      }
+    });
+  };
+
+  return CustomMap;
+}();
+
+exports.CustomMap = CustomMap;
+},{}],"src/index.ts":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -22813,14 +22848,17 @@ Object.defineProperty(exports, "__esModule", {
 
 var Company_1 = require("./Company");
 
-var User_1 = require("./User"); // Instâncias das classes:
+var User_1 = require("./User");
+
+var CustomMap_1 = require("./CustomMap"); // Instâncias das classes:
 
 
 var user = new User_1.User();
 var company = new Company_1.Company();
-console.log(user);
-console.log(company);
-},{"./Company":"src/Company.ts","./User":"src/User.ts"}],"../../../../../../.nvm/versions/node/v16.15.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+var customMap = new CustomMap_1.CustomMap('map');
+customMap.addMarker(user);
+customMap.addMarker(company);
+},{"./Company":"src/Company.ts","./User":"src/User.ts","./CustomMap":"src/CustomMap.ts"}],"../../../../../../.nvm/versions/node/v16.15.1/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -22848,7 +22886,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33967" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34981" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

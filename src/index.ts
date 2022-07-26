@@ -2,10 +2,12 @@
 // Importação das classes:
 import { Company } from './Company';
 import { User } from './User';
+import { CustomMap } from './CustomMap'
 
 // Instâncias das classes:
 const user = new User();
 const company = new Company();
+const customMap = new CustomMap('map');
 
-console.log(user);
-console.log(company);
+customMap.addMarker(user);
+customMap.addMarker(company);
